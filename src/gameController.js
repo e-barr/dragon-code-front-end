@@ -2,8 +2,9 @@ let gameId = null
 let score = 0
 
 async function getGameInfo(usernameObejct) {
-  const gameInfo = await Adapter.createNewGame(usernameObejct) //need to check what stephens names this functionn
-  gameId = gameInfo.id
+  const gameObject = await Adapter.createNewGame(usernameObejct) //need to check what stephens names this functionn
+  debugger
+  gameId = gameObject.id
 }
 
 async function getAllQuestions() {
