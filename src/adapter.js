@@ -1,9 +1,7 @@
-const QUESTIONS_API = ''
+const QUESTIONS_API = 'localhost:3000'
 
 const Adapter = (() => {
-
   return class {
-
     static async getAllQuestions() {
       let result = await fetch(QUESTIONS_API)
       let questions = await result.json()
@@ -15,6 +13,12 @@ const Adapter = (() => {
         option2: question.option2,
         option3: question.option3
       }))
+    }
+    
+    static async getOneQuestion(gameId) {
+      let result = await fetch(`${QUESTIONS_API}/game_questions`)
+      let questionObject = await result.json()
+      debugger
     }
 
     static updateQuestion(questionObject) {

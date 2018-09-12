@@ -6,8 +6,12 @@ document.addEventListener("DOMContentLoaded", () => {
   userForm.addEventListener('submit', (event) => {
     event.preventDefault()
 
-    async function getAllQuestions() {
-      const questionArray = await Adapter.getAllQuestions()
+    // async function getAllQuestions() {
+    //   const questionArray = await Adapter.getAllQuestions()
+    
+    async function getOneQuestion(gameId) {
+      
+    }
     }
 
     const username = event.target.username.value
