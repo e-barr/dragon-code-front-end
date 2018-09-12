@@ -18,7 +18,7 @@ const Adapter = (() => {
       let questionObject = await result.json()
       // note: need to return formatted json result here
     }
-    
+
     static async createNewGame(formObject) {
       gameInfo = await fetch(`${QUESTIONS_API}/games`, {
         method: 'POST',
@@ -27,7 +27,7 @@ const Adapter = (() => {
         },
         body: JSON.stringify(formObject)
       })
-      
+
       return await {
         gameId: gameInfo.id,
         score: gameInfo.score
