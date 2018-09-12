@@ -8,6 +8,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
     async function getAllQuestions() {
       const questionArray = await Adapter.getAllQuestions()
+      questionArray.forEach(question => {
+        new Question(question)
+      })
     }
 
     const username = event.target.username.value

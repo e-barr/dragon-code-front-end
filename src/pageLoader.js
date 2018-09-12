@@ -6,21 +6,7 @@ const navBarDiv = document.querySelector('#nav-bar')
 function renderOptionBoxes(question) {
 
   return `
-    <div id="question">
-    <div>
-      <h3 class="typewriter text-center text-light">Which of the following is credited as the original creator of the World Wide Web?</h3>
-    </div>
-    <div class="text-center" id="question-options">
-
-    <button class="snip1582">Tim Berners-Lee</button>
-
-    <button class="snip1582">Andreas Reuter</button>
-
-    <button class="snip1582">Roy Fielding</button>
-
-    <button class="snip1582">Al Gore</button>
-    </div>
-    </div>`
+    `
 }
 
 function renderTopBar() {

@@ -5,16 +5,29 @@ const Question = (() => {
       this.id = question.id
       this.description = question.description
       this.answer = question.answer
-      this.option1 = question.option1
-      this.option2 = question.option2
-      this.option3 = question.option3
-
+      this.options = question.options
+      all.push(this)
     }
 
     render() {
-      return `` //we need to get the data to know what to render
+      return `<div id="question">
+    <div id="question-description>
+      <h3 class="typewriter text-center text-light">${this.description}</h3>
+    </div>
+
+    <div class="text-center" id="question-options">
+      ${question.options.map(option => optionRender(option))}
+    </div>
+    </div>`
     }
 
+    // optionRender(option) {
+    //   return `<button class="snip1582">Tim Berners-Lee</button>`
+    // }
 
   }
+  optionRender(option) {
+    return `<button class="snip1582">${option}</button>`
+  }
+
 })

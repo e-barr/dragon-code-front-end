@@ -11,9 +11,7 @@ const Adapter = (() => {
         id: question.id,
         description: question.description,
         answer: question.answer,
-        option1: question.option1,
-        option2: question.option2,
-        option3: question.option3
+        options =[question.answer, question.option1, question.option2, question.option3]
       }))
     }
 
