@@ -36,7 +36,11 @@ const Adapter = (() => {
         headers: {
           'Content-Type': 'application/json'
         },
-        body: JSON.stringify(formObject)
+        body: JSON.stringify({
+          game: {
+            username: formObject.username
+          }
+        })
       })
         .then(res => res.json())
       
