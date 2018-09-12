@@ -1,9 +1,8 @@
 const QUESTIONS_API = 'http://localhost:3000'
 
-// const Adapter = (() => {
 class Adapter {
   static async getAllQuestions() {
-    let result = await fetch(QUESTIONS_API)
+    let result = await fetch(`${QUESTIONS_API}/questions`)
     let questions = await result.json()
     return questions.map(question => ({
       id: question.id,
@@ -25,8 +24,12 @@ class Adapter {
         }
       })
     })
+      .then(res => res.json())
 
-    let questionObject = result.json()
+    debugger
+    
+    return {
+      result
     // note: need to return formatted json result here
   }
 
@@ -61,7 +64,4 @@ class Adapter {
       })
     })
   }
-
-
 }
-// })
