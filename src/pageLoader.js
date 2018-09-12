@@ -70,20 +70,4 @@ function renderLoginBox() {
   </form>
 </div>
 </div>`
-
-  // < label for= "username" class= "float-label" > login</label >
-
-  // < div id = "form-login-password" class="form-group" >
-  //   <input id="passwd" class="form-control" name="password" type="password" size="18" alt="password" required>
-  //     <span class="form-highlight"></span>
-  //     <span class="form-bar"></span>
-  //     <label for="password" class="float-label">password</label>
-  // </div>
-
-  // < div id = "form-login-remember" class="form-group" >
-  //   <div class="checkbox checkbox-default">
-  //     <input id="remember" type="checkbox" value="yes" alt="Remember me" class="">
-  //       <label for="remember">Remember me</label>
-  //   </div>
-  //   </div>
 }
