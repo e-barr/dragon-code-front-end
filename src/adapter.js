@@ -18,6 +18,10 @@ const Adapter = (() => {
       let questionObject = await result.json()
       debugger
     }
+    
+    static async createNewGame(formObject) {
+      await fetch
+    }
 
     static updateQuestion(questionObject) {
       fetch(`${QUESTIONS_API}/${questionObject.id}`, {
