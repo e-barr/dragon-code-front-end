@@ -1,6 +1,6 @@
 const Question = (() => {
+  const all = []
   return class {
-    all = []
     constructor(question) { //We need to know which data we are going to be using
       this.id = question.id
       this.description = question.description

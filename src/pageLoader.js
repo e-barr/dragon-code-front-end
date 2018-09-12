@@ -3,6 +3,7 @@ const appContent = document.querySelector('#app-content')
 const navBarDiv = document.querySelector('#nav-bar')
 
 
+
 function renderOptionBoxes(question) {
 
   return `
