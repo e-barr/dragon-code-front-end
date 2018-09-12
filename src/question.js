@@ -14,20 +14,17 @@ const Question = (() => {
     <div id="question-description>
       <h3 class="typewriter text-center text-light">${this.description}</h3>
     </div>
-
     <div class="text-center" id="question-options">
-      ${question.options.map(option => optionRender(option))}
+      ${question.options.map(option => this.optionRender(option))}
     </div>
     </div>`
     }
-
-    // optionRender(option) {
-    //   return `<button class="snip1582">Tim Berners-Lee</button>`
-    // }
+    //Not sure if the below will work
+    optionRender(option) {
+      return `<button class="snip1582">${option}</button>`
+    }
 
   }
-  optionRender(option) {
-    return `<button class="snip1582">${option}</button>`
-  }
+
 
 })

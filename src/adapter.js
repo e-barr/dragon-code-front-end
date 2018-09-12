@@ -12,7 +12,7 @@ const Adapter = (() => {
         options =[question.answer, question.option1, question.option2, question.option3]
       }))
     }
-    
+
     static async getOneQuestion(gameId) {
       let result = await fetch(`${QUESTIONS_API}/game_questions`)
       let questionObject = await result.json()

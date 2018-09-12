@@ -6,19 +6,11 @@ document.addEventListener("DOMContentLoaded", () => {
   userForm.addEventListener('submit', (event) => {
     event.preventDefault()
 
-    // event.target.username.value
-    debugger
+    getGameInfo({ username: event.target.username.value })
 
-    async function getAllQuestions() {
-      const questionArray = await Adapter.getAllQuestions()
-      questionArray.forEach(question => {
-        new Question(question)
-      })
-    }
+    getAllQuestions()
 
-    async function getOneQuestion(gameId) {
 
-    }
 
 
     const username = event.target.username.value
