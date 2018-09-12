@@ -14,21 +14,33 @@ const Adapter = (() => {
     }
 
     static async getOneQuestion(gameId) {
-      let result = await fetch(`${QUESTIONS_API}/game_questions`)
-      let questionObject = await result.json()
+      let result = await fetch(`${QUESTIONS_API}/game_questions`, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify({
+          game_question: {
+            game_id: gameId
+          }
+        })  
+      })
+      
+      let questionObject = result.json()
       // note: need to return formatted json result here
     }
     
     static async createNewGame(formObject) {
-      gameInfo = await fetch(`${QUESTIONS_API}/games`, {
+      let gameInfo = await fetch(`${QUESTIONS_API}/games`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'
         },
         body: JSON.stringify(formObject)
       })
+        .then(res => res.json())
       
-      return await {
+      return {
         gameId: gameInfo.id,
         score: gameInfo.score
       }
