@@ -4,12 +4,9 @@ const navBarDiv = document.querySelector('#nav-bar')
 
 
 
-function renderOptionBoxes(question) {
-
-  return `
-    `
+function renderQuestionAndOptions() {
+  appContent.innerHTML = Question.all[1].render()
 }
-
 function renderTopBar() {
   return `<nav class="navbar navbar-icon-top navbar-expand-lg navbar-dark bg-dark">
   <a class="navbar-brand" href="#">Navbar</a>
@@ -47,7 +44,6 @@ function renderTopBar() {
   </div>
 </nav>`
 }
-
 function renderLoginBox() {
   return `<div class="container">
 <div id="login" class="signin-card text-center">
@@ -71,3 +67,4 @@ function renderLoginBox() {
 </div>
 </div>`
 }
+
