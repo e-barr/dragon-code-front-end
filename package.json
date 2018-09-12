@@ -1,0 +1,25 @@
+{
+  "name": "dragon-code-front-end",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pabloargueta/dragon-code-front-end.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pabloargueta/dragon-code-front-end/issues"
+  },
+  "homepage": "https://github.com/pabloargueta/dragon-code-front-end#readme",
+  "dependencies": {
+    "node-fetch": "^2.2.0"
+  }
+}
