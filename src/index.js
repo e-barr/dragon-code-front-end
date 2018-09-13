@@ -9,7 +9,8 @@ document.addEventListener("DOMContentLoaded", () => {
     // debugger
     event.preventDefault()
     // removeCircleAnimation()
-    appContent.innerHTML = ''
+    appContent.innerHTML = ``
+    navBarDiv.innerHTML = renderTopBar()
 
     getGameInfo({ username: event.target.username.value });
 
