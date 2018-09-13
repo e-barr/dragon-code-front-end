@@ -97,13 +97,13 @@ function loadAlert(correctBool) {
   function headerText() { return correctBool ? 'Well Done!' : 'Try again!' }
   function paragraphText() { return correctBool ? `You are correct the right answer is ${Question.currentQuestion.answer} ` : `The correct answer was ${Question.currentQuestion.answer} ` }
   return `< div class="alert ${successOrFailureAlert} alert-dismissible fade show" role = "alert" >
-    <h4 class="alert-heading">${headerText()}</h4>
-    <hr>
-      <p>${paragraphText()}.</p>
+  <h4 class="alert-heading">${headerText()}</h4>
+  <hr>
+    <p>${paragraphText()}.</p>
 
-      <button type="button" class="close" data-dismiss="alert" aria-label="Close" onclick="overlayContentOff()">
-        <span aria-hidden="true">&times;</span>
-      </button>
+    <button type="button" class="close" data-dismiss="alert" aria-label="Close" onclick="overlayContentOff()">
+      <span aria-hidden="true">&times;</span>
+    </button>
 </div>`
 }
 

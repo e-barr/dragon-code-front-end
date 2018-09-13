@@ -8,12 +8,6 @@ async function getGameInfo(usernameObejct) {
 
 }
 
-async function getAllQuestions() {
-  const questionArray = await Adapter.getAllQuestions()
-  questionArray.forEach(question => {
-    let tempQuestion = new Question(question)
-  })
-}
 
 async function getOneQuestion(gameId) {
   // debugger

@@ -8,14 +8,14 @@ document.addEventListener("DOMContentLoaded", () => {
   userForm.addEventListener('submit', (event) => {
     // debugger
     event.preventDefault()
-    // removeCircleAnimation()
+    removeCircleAnimation()
     appContent.innerHTML = ``
     navBarDiv.innerHTML = renderTopBar()
 
     getGameInfo({ username: event.target.username.value });
 
 
-
+    Question.getQuestions()
     // (async function getAndRender() {
     //   await getAllQuestions()
     //   renderQuestionAndOptions()

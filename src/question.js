@@ -3,7 +3,7 @@ const Question = (() => {
   class Question {
     constructor(question) { //We need to know which data we are going to be using
       this.id = question.id
-      this.content = question.content
+      this.description = question.description
       this.answer = question.answer
       this.options = question.options
       Question.all.push(this)
@@ -14,7 +14,7 @@ const Question = (() => {
 
       return `<div id="question" class="text-center container">
     <div id="question-description" class="container">
-      <h5 class="typewriter text-white">${this.content}</h5>
+      <h5 class="typewriter text-white">${this.description}</h5>
     </div>
     <div class="text-center" data-question-id="question-${this.id}" id="question-options">
       ${arr2.join(',')}
@@ -54,9 +54,13 @@ const Question = (() => {
     }
 
     static async getQuestions() {
-      await getAllQuestions()
-      await this.shuffleQuestions()
+      const questionArray = await Adapter.getAllQuestions()
+      questionArray.forEach(question => {
+        new Question(question)
+      })
     }
+
+
 
 
   }
