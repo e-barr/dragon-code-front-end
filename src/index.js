@@ -1,5 +1,6 @@
 document.addEventListener("DOMContentLoaded", () => {
   appContent.innerHTML = renderLoginBox()
+
   // const Question = buildQuestionClass()
 
   const userForm = document.querySelector('#form-login-username')
@@ -7,32 +8,41 @@ document.addEventListener("DOMContentLoaded", () => {
   userForm.addEventListener('submit', (event) => {
     // debugger
     event.preventDefault()
+    // removeCircleAnimation()
+    appContent.innerHTML = ''
 
     getGameInfo({ username: event.target.username.value });
 
-    (async function getAndRender() {
-      await getAllQuestions()
-      renderQuestionAndOptions()
-      questionEventListener()
-    })()
+
+
+    // (async function getAndRender() {
+    //   await getAllQuestions()
+    //   renderQuestionAndOptions()
+    //   questionEventListener()
+    // })()
+
+
+
+
 
 
 
   })
 
 
-  function questionEventListener() {
-    let questiondiv = document.querySelector('#question')
+  // function questionEventListener() {
+  //   let questiondiv = document.querySelector('#question')
 
-    questiondiv.addEventListener('click', (event) => {
-      let questionId = event.target.dataset.questionId.split('-')[1]
-      let currentQuestion = Question.all.find(question => question.id === parseInt(questionId))
-      let correctAnswer = currentQuestion.isCorrect(event.target.innerText)
-      let responseID = event.target.dataset.responseId
+  //   questiondiv.addEventListener('click', (event) => {
+  //     let alertDiv = document.querySelector('#alert-content')
+  //     let responseID = event.target.dataset.responseId
+  //     let correctAnswer = Question.currentQuestion.isCorrect(Question.currentQuestion.options[responseID])
+  //     overlayContent.innerHTML = loadAlert(correctAnswer)
+  //     // overlayContent.innerHTML = ''
 
-      Adapter.updateQuestion({ gameid: gameid, questionId: currentQuestion.id, responseId: responseID })
-    })
-  }
+  //     // Adapter.updateQuestion({ id: Question.currentQuestion.id, gameid: gameId, questionId: Question.currentQuestion.id, responseId: responseID })
+  //   })
+  // }
 
 
 

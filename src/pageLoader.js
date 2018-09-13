@@ -1,11 +1,15 @@
 const userNameForm = document.querySelector('#create-username')
 const appContent = document.querySelector('#app-content')
 const navBarDiv = document.querySelector('#nav-bar')
+const overlayContent = document.querySelector('#overlay-content')
 
 
 
-function renderQuestionAndOptions() {
-  appContent.innerHTML = Question.all[1].render()
+
+function renderQuestionAndOptions(question) {
+  let currentQuestion = question
+  overlayContent.innerHTML = currentQuestion.render()
+  overlayContentOn()
 }
 function renderTopBar() {
   return `<nav class="navbar navbar-icon-top navbar-expand-lg navbar-dark bg-dark">
@@ -47,7 +51,7 @@ function renderTopBar() {
 function renderLoginBox() {
   return `<div class="container">
 <div id="login" class="signin-card text-center">
-  <div class="logo-image">
+  <div class="logo-image" id="logo-image">
   <img src="img/dragon.png" alt="Logo" title="Logo" width="138">
   </div>
   <h1 class="display1 text-light">Create a Game Name</h1>
@@ -67,4 +71,35 @@ function renderLoginBox() {
 </div>
 </div>`
 }
+
+function overlayContentOn() {
+  document.getElementById("overlay-content").style.display = "block";
+}
+
+function overlayContentOff() {
+  document.getElementById("overlay-content").style.display = "none";
+}
+
+function removeCircleAnimation() {
+  let loaderDiv = document.querySelector('#loader')
+  loaderDiv.innerHTML = ''
+}
+
+function loadAlert(correctBool) {
+  let successOrFailureAlert = correctBool ? 'alert-success' : 'alert-danger'
+
+  function headerText() { return correctBool ? 'Well Done!' : 'Try again!' }
+  function paragraphText() { return correctBool ? `You are correct the right answer is ${Question.currentQuestion.answer}` : `The correct answer was ${Question.currentQuestion.answer}` }
+  return `<div class="alert ${successOrFailureAlert} alert-dismissible fade show" role="alert">
+  <h4 class="alert-heading">${headerText()}</h4>
+  <hr>
+  <p>${paragraphText()}.</p>
+
+  <button type="button" class="close" data-dismiss="alert" aria-label="Close" onclick="overlayContentOff()">
+  <span aria-hidden="true">&times;</span>
+  </button>
+</div>`
+}
+
+
 

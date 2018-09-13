@@ -1,4 +1,3 @@
-
 const Question = (() => {
   // var hidden = Symbol()
   class Question {
@@ -10,12 +9,15 @@ const Question = (() => {
       Question.all.push(this)
     }
     render() {
-      return `<div id="question" class="text-center container overlay">
+      let arr = this.options.map((option, i) => this.optionRender(option, i))
+      let arr2 = shuffleOptions(arr)
+
+      return `<div id="question" class="text-center container">
     <div id="question-description" class="container">
       <h5 class="typewriter text-white">${this.content}</h5>
     </div>
     <div class="text-center" data-question-id="question-${this.id}" id="question-options">
-      ${this.options.map((option, i) => this.optionRender(option, i))}
+      ${arr2.join(',')}
     </div>
     </div>`
     }
@@ -24,13 +26,71 @@ const Question = (() => {
       return `<button class="snip1582" data-question-id="question-${this.id}" data-response-id=${i}>${option}</button>`
     }
 
+
+
     isCorrect(playerAnswer) {
       return this.answer === playerAnswer
     }
+
+    static getOneQuestion() {
+      let newQuestion = this.all.shift();
+      this.currentQuestion = newQuestion
+      this.asked.push(newQuestion)
+      this.currentOptions = newQuestion.options
+      renderQuestionAndOptions(newQuestion)
+      questionEventListener()
+    }
+
+    static shuffleQuestions() {
+      let arr = this.all
+      let j, x, i;
+      for (i = arr.length - 1; i > 0; i--) {
+        j = Math.floor(Math.random() * (i + 1));
+        x = arr[i];
+        arr[i] = arr[j];
+        arr[j] = x;
+      }
+      this.all = arr
+    }
+
+    static async getQuestions() {
+      await getAllQuestions()
+      await this.shuffleQuestions()
+    }
+
+
   }
+
+
   Question.all = []
-
+  Question.asked = []
+  Question.currentQuestion = null
+  Question.currentOptions = null
   return Question
-
-
 })();
+
+
+function questionEventListener() {
+  let questiondiv = document.querySelector('#question')
+
+  questiondiv.addEventListener('click', (event) => {
+    let alertDiv = document.querySelector('#alert-content')
+    let responseID = event.target.dataset.responseId
+    let correctAnswer = Question.currentQuestion.isCorrect(Question.currentQuestion.options[responseID])
+    overlayContent.innerHTML = loadAlert(correctAnswer)
+    // overlayContent.innerHTML = ''
+
+    // Adapter.updateQuestion({ id: Question.currentQuestion.id, gameid: gameId, questionId: Question.currentQuestion.id, responseId: responseID })
+  })
+}
+
+function shuffleOptions(arr) {
+  let j, x, i;
+  for (i = arr.length - 1; i > 0; i--) {
+    j = Math.floor(Math.random() * (i + 1));
+    x = arr[i];
+    arr[i] = arr[j];
+    arr[j] = x;
+  }
+  return arr
+}

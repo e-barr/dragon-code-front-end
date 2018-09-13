@@ -3,7 +3,7 @@
 
 /* Overlay feature ====================================== */
 
-#overlay {
+#overlay-content {
     position: fixed;
     display: none;
     width: 100%;
@@ -12,9 +12,18 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: rgba(0,0,0,0.5);
-    z-index: 2;
+    /* background-color: rgba(0,0,0,0.5); */
+    /* z-index: 2; */
     cursor: pointer;
+    /* text-align: center; */
+    margin: auto;
+}
+
+.overlay-container {
+  background-color: rgba(0,0,0,0.5);
+  width: 100%;
+  height: 100%;
+  text-align: center;
 }
 
 /* ======================================================= */
@@ -138,8 +147,27 @@
 }
 /* ========================================================= */
 
+/* ========Animation after collision ======================== */
+  .questionLoader{
+  height: 10px;
+  background-color: #000;
+  position: absolute;
+}
 
+.loaderContent{
+  text-align: center;
+  height: 100vh;
+  width: 100%;
+  background: #fff;
+  display: none;
+}
 
+/* =========================================================== */
+.mfp-title {
+  position:absolute;
+  color: #FFF;
+  background: red;
+}
 
 
 
@@ -240,16 +268,8 @@
 }
 
 
-/* Demo purposes only */
-
-/* body { */
-  /* background-color: #212121;
-  padding: 50px 0; */
-  /* text-align: center;
-} */
-
 /* Loader CSS =============================*/
-/* .demo{background-color: #00272B;} */
+
 .loader{
     color: #5bc0de;
     background-color: #5bc0de;
