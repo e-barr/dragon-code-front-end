@@ -1,6 +1,32 @@
 @import url(https://fonts.googleapis.com/css?family=BenchNine:700);
 @import url("https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
 
+/* Overlay feature ====================================== */
+
+#overlay-content {
+    position: fixed;
+    display: none;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    /* background-color: rgba(0,0,0,0.5); */
+    /* z-index: 2; */
+    cursor: pointer;
+    /* text-align: center; */
+    margin: auto;
+}
+
+.overlay-container {
+  background-color: rgba(0,0,0,0.5);
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+
+/* ======================================================= */
 
 
 
@@ -121,8 +147,27 @@
 }
 /* ========================================================= */
 
+/* ========Animation after collision ======================== */
+  .questionLoader{
+  height: 10px;
+  background-color: #000;
+  position: absolute;
+}
 
+.loaderContent{
+  text-align: center;
+  height: 100vh;
+  width: 100%;
+  background: #fff;
+  display: none;
+}
 
+/* =========================================================== */
+.mfp-title {
+  position:absolute;
+  color: #FFF;
+  background: red;
+}
 
 
 
@@ -130,28 +175,30 @@
 
 
 /* Question typewriter effect */
-.typewriter {
+/* .typewriter {
   overflow: hidden; /* Ensures the content is not revealed until the animation */
-  border-right: .15em solid orange; /* The typwriter cursor */
-  white-space: nowrap; /* Keeps the content on a single line */
-  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-  letter-spacing: .15em; /* Adjust as needed */
-  animation:
+  /* border-right: .15em solid #5bc0de; The typwriter cursor */
+  /* white-space: nowrap; Keeps the content on a single line */
+  /* margin: 0 auto; Gives that scrolling effect as the typing happens */
+  /* letter-spacing: .15em; Adjust as needed */
+  /* animation:
     typing 3.5s steps(40, end),
     blink-caret .75s step-end infinite;
-}
+} */
 
 /* The typing effect */
-@keyframes typing {
+/* @keyframes typing {
   from { width: 0 }
   to { width: 100% }
-}
+} */
 
 /* The typewriter cursor effect */
-@keyframes blink-caret {
+/* @keyframes blink-caret {
   from, to { border-color: transparent }
-  50% { border-color: orange; }
-}
+  50% { border-color: #5bc0de; }
+} */
+
+
 
 /* ======================================================== */
 
@@ -221,16 +268,8 @@
 }
 
 
-/* Demo purposes only */
-
-/* body { */
-  /* background-color: #212121;
-  padding: 50px 0; */
-  /* text-align: center;
-} */
-
 /* Loader CSS =============================*/
-/* .demo{background-color: #00272B;} */
+
 .loader{
     color: #5bc0de;
     background-color: #5bc0de;
