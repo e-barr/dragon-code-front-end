@@ -1,4 +1,4 @@
-const stepSize = 50//window.innerHeight / grid.length;
+const stepSize = 1//window.innerHeight / grid.length;
 const eventPiecesArray = []
 
 class Character {
@@ -9,104 +9,110 @@ class Character {
     this.movement = null
     this.element.src = `${this.assets}/static.gif`
     this.element.style.position = 'absolute'
-    this.xLocation = startingX
-    this.yLocation = startingY
-    this.futureXLocation = startingX
-    this.futureYLocation = startingY
-    this.element.style.left = `${this.xLocation}px`
-    this.element.style.top = `${this.yLocation}px`
+    this.x = startingX
+    this.y = startingY
     this.element.style.width = "50px"
+    this.element.style.height = "50px"
     document.body.appendChild(this.element)
   }
+  
+  get x(){
+    return parseInt(this.element.style.left)
+  }
+  
+  set x(value){
+    this.element.style.left = value + 'px'
+  }
+  
+  get y(){
+    return parseInt(this.element.style.top)
+  }
+  
+  set y(value){
+    this.element.style.top = value + 'px'
+  }
+  
+  get height() {return parseInt(this.element.style.height)}
+  
+  set height(value) {this.element.style.height = value + 'px'}
+  
+  get width() {return parseInt(this.element.style.width)}
+  
+  set width (value) {this.element.style.width = value + 'px'}
+  
+  //note change all to NESW
 
   futureLocation(direction) {
-    this.futureXLocation = this.xLocation
-    this.futureYLocation = this.yLocation
-
+    let futureXLocation = this.x
+    let futureYLocation = this.y
+  
     if (direction === "right") {
-      this.futureXLocation += stepSize
+      futureXLocation += stepSize
     } else if (direction === "up") {
-      this.futureYLocation -= stepSize
+      futureYLocation -= stepSize
     } else if (direction === "left") {
-      this.futureXLocation -= stepSize
+      futureXLocation -= stepSize
     } else if (direction === "down") {
-      this.futureYLocation += stepSize
+      futureYLocation += stepSize
     }
+    
+    return { futureXLocation, futureYLocation }
   }
 
-  checkEventPieces(eventPiecesArray) {
+  checkEventPieces(eventPiecesArray, direction) {
     let collisionFlag = false
-    console.log(`x: ${this.futureXLocation}, y: ${this.futureYLocation}`)
-    eventPiecesArray.forEach(locationTuple => {
-      console.log(locationTuple)
-      if (collisionFlag == false && locationTuple[0] == this.futureXLocation && locationTuple[1] == this.futureYLocation) {
-        console.log("collision!");
+    let { futureXLocation, futureYLocation } = this.futureLocation(direction)
+    let myLeft = futureXLocation
+    let myRight = futureXLocation + parseInt(this.element.style.width)
+    let myTop = futureYLocation
+    let myBottom = futureYLocation + parseInt(this.element.style.width)
+    
+    eventPiecesArray.forEach(pageObject => {
+      let pageObjectLeft = pageObject.x
+      let pageObjectRight = pageObject.x + pageObject.width
+      let pageObjectTop = pageObject.y
+      let pageObjectBottom = pageObject.y + pageObject.height
+      
+      if (
+        
+        ((myLeft >= pageObjectLeft && myLeft <= pageObjectRight) || (myRight >= pageObjectLeft && myRight <= pageObjectRight) || (myLeft <= pageObjectLeft && myRight >= pageObjectRight)) 
+          &&
+        ((myTop <= pageObjectBottom && myTop >= pageObjectTop) || (myBottom <= pageObjectBottom && myBottom >= pageObjectTop) || (myTop <= pageObjectTop && myBottom >= pageObjectBottom))
+      ) {
         collisionFlag = true
       }
     })
-    console.log(collisionFlag);
     return collisionFlag
   }
 
-  stepDirection(direction){
-    this.futureLocation(direction)
-    let collisionFlag = this.checkEventPieces(eventPiecesArray)
-
-    return new Promise( resolve => {
-      if (direction === "right" && !collisionFlag) {
-        this.walkEast()
-        this.xLocation += stepSize
-      } else if (direction === "up" && !collisionFlag) {
-        this.walkNorth()
-        this.futureYLocation -= stepSize
-      } else if (direction === "left" && !collisionFlag) {
-        this.walkWest()
-        this.futureXLocation -= stepSize
-      } else if (direction === "down" && !collisionFlag) {
-        this.walkSouth()
-        this.futureYLocation += stepSize
-      }
-
-      setTimeout( () => {
-        this.stop();
-        resolve()
-      }, stepSize / this.speed * 100)
-    })
-
-  }
-
-  walkEast(){
+  walkRight(){
     this.stop()
     this.movement = setInterval(()  =>{
-      let currentPosition = parseInt(this.element.style.left)
-      this.element.style.left = currentPosition + 1 + 'px'
+      if(!this.checkEventPieces(eventPiecesArray, 'right')) this.x += 1;
     }, this.speed)
     this.element.src = `${this.assets}/walkright.gif`
   }
 
-  walkWest(){
+  walkLeft(){
     this.stop()
     this.movement = setInterval(()  => {
-      let currentPosition = parseInt(this.element.style.left)
-      this.element.style.left = currentPosition - 1 + 'px'
+      if(!this.checkEventPieces(eventPiecesArray, 'left'))  this.x -= 1
     }, this.speed)
     this.element.src = `${this.assets}/walkleft.gif`
   }
 
-  walkNorth(){
+  walkUp(){
     this.stop()
     this.movement = setInterval(()  =>{
-      let currentPosition = parseInt(this.element.style.top)
-      this.element.style.top = currentPosition - 1 + 'px'
+      if(!this.checkEventPieces(eventPiecesArray, 'up')) this.y -= 1
     }, this.speed)
     this.element.src = `${this.assets}/walkup.gif`
   }
 
-  walkSouth(){
+  walkDown(){
     this.stop()
     this.movement = setInterval(()  =>{
-      let currentPosition = parseInt(this.element.style.top)
-      this.element.style.top = currentPosition + 1 + 'px'
+      if(!this.checkEventPieces(eventPiecesArray, 'down')) this.y += 1
     }, this.speed)
     this.element.src = `${this.assets}/walkdown.gif`
   }
@@ -128,34 +134,70 @@ document.addEventListener("DOMContentLoaded", () => {
       box.yLocation = 50 * Math.round(Math.random() * 10)
       box.style.left = `${box.xLocation}px`
       box.style.top = `${box.yLocation}px`
+      box.style.width = "30px"
       document.body.appendChild(box)
-      eventPiecesArray.push([box.xLocation, box.yLocation])
+      eventPiecesArray.push({x: box.x, y: box.y, width: parseInt(box.style.width), height: parseInt(box.style.width)})
     }
   }
 
+  function renderCharacters() {
+    let wizard = document.createElement('img')
+    wizard.src = 'assets/eventpieces/wizard.gif'
+    wizard.style.position = 'absolute'
+    wizard.xLocation = 50 * Math.round(Math.random() * 10)
+    wizard.yLocation = 50 * Math.round(Math.random() * 10)
+    wizard.style.left = `${wizard.xLocation}px`
+    wizard.style.top = `${wizard.yLocation}px`
+    wizard.style.width = "60px"
+    document.body.appendChild(wizard)
+    
+    let minotaur = document.createElement('img')
+    minotaur.src = 'assets/eventpieces/minotaur.gif'
+    minotaur.style.position = 'absolute'
+    minotaur.xLocation = 50 * Math.round(Math.random() * 10)
+    minotaur.yLocation = 50 * Math.round(Math.random() * 10)
+    minotaur.style.left = `${minotaur.xLocation}px`
+    minotaur.style.top = `${minotaur.yLocation}px`
+    minotaur.style.width = "50px"
+    document.body.appendChild(minotaur)
+    
+    let dragon = document.createElement('img')
+    dragon.src = 'assets/eventpieces/dragon.gif'
+    dragon.style.position = 'absolute'
+    dragon.xLocation = 50 * Math.round(Math.random() * 10)
+    dragon.yLocation = 50 * Math.round(Math.random() * 10)
+    dragon.style.left = `${dragon.xLocation}px`
+    dragon.style.top = `${dragon.yLocation}px`
+    dragon.style.width = "90px"
+    document.body.appendChild(dragon)
+  }
+
   renderBoxes(5)
+  renderCharacters()
   char = new Character(200, 200)
 
   function moveCharacter(e) {
-    console.log(char.element.style.left, char.element.style.top)
-
     if (!char.movement) {
-      if (e.keyCode == 39) {
+      if (e.key == 'ArrowUp') {
         e.preventDefault()
-        char.stepDirection("right")
-      } else if (e.keyCode == 40) {
+        char.walkUp()
+      } else if (e.key == "ArrowRight") {
         e.preventDefault()
-        char.stepDirection("down")
-      } else if (e.keyCode == 37) {
+        char.walkRight()
+      } else if (e.key == "ArrowDown") {
         e.preventDefault()
-        char.stepDirection("left")
-      } else if (e.keyCode == 38) {
+        char.walkDown()
+      } else if (e.key == "ArrowLeft") {
         e.preventDefault()
-        char.stepDirection("up")
+        char.walkLeft()
       }
     }
   }
 
+  function stopCharacter(){
+    char.stop()
+  }
 
   window.addEventListener('keydown', e => moveCharacter(e))
+  window.addEventListener('keyup', e => stopCharacter())
 })
