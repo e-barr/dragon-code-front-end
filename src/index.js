@@ -14,7 +14,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
     getGameInfo({ username: event.target.username.value });
 
-
     Question.getQuestions()
     // (async function getAndRender() {
     //   await getAllQuestions()

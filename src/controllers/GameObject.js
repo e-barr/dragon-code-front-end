@@ -1,3 +1,5 @@
+const board = document.getElementById('gameboard-content')
+  
 class GameObject extends EventEmitter {
   constructor({startingX=0, startingY=0, width=25, height=25, fileFolder, fileName, passThrough=false}) {
     super()
@@ -10,7 +12,7 @@ class GameObject extends EventEmitter {
     this.height = height
     this.x = startingX
     this.y = startingY
-    document.body.appendChild(this.element)
+    board.appendChild(this.element)
     GameObject.all.push(this)
   }
 

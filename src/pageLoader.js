@@ -12,6 +12,7 @@ function renderQuestionAndOptions(questionId) {
   overlayContentOn()
   questionEventListener()
 }
+
 function renderTopBar() {
   return `<nav class="navbar navbar-icon-top navbar-expand-lg navbar-dark bg-dark">
 
