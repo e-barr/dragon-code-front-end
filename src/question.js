@@ -85,6 +85,7 @@ function questionEventListener() {
     let responseID = event.target.dataset.responseId
     let correctAnswer = Question.currentQuestion.isCorrect(Question.currentQuestion.options[responseID])
     overlayContent.innerHTML = loadAlert(correctAnswer)
+    if (correctAnswer) { increaseScore() }
     // overlayContent.innerHTML = ''
 
     // Adapter.updateQuestion({ id: Question.currentQuestion.id, gameid: gameId, questionId: Question.currentQuestion.id, responseId: responseID })

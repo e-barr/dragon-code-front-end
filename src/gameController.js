@@ -1,5 +1,6 @@
 let gameId = null
 let score = 0
+let username = null
 
 async function getGameInfo(usernameObject) {
   const gameObject = await Adapter.createNewGame(usernameObject) //need to check what stephens names this functionn
@@ -10,8 +11,13 @@ async function getGameInfo(usernameObject) {
   createLevelQuestions(gameObject.levelQuestions)
   createGridItems(gameObject.gridItems)
   createEventPieces(gameObject.eventPieces)
-  
-  char = new Character({startingX: 400, startingY: 400, fileFolder: 'assets/character', fileName: 'static.gif'})
+
+  char = new Character({ startingX: 400, startingY: 400, fileFolder: 'assets/character', fileName: 'static.gif' })
+}
+
+function increaseScore() {
+  let scoreElement = document.querySelector('#score')
+  scoreElement.innerText = `${score += 1}`
 }
 
 async function getOneQuestion(gameId) {
