@@ -58,8 +58,11 @@ function renderLoginBox() {
   return `< div class="container" >
     <div id="login" class="signin-card text-center">
       <div class="logo-image" id="logo-image">
-        <img src="img/dragon.png" alt="Logo" title="Logo" width="138">
+      <h1 class="display1 text-light dragon-title dragon-title">Dragon</h1>
+      <br>
+        <h1 class="display1 text-light code-title">C<span><img src="img/dragon-intro2white.png" alt="Logo" title="Logo" width="138"></span>DE</h1>
   </div>
+  <br>
         <h1 class="display1 text-light">Create a Game Name</h1>
 
         <form action="" method="" class="" role="form" id="form-login-username">
