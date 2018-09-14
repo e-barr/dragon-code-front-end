@@ -12,7 +12,7 @@ async function getGameInfo(usernameObject) {
   createGridItems(gameObject.gridItems)
   createEventPieces(gameObject.eventPieces)
 
-  char = new Character({ startingX: 400, startingY: 400, fileFolder: 'assets/character', fileName: 'static.gif' })
+  char = new Character({ startingX: 450, startingY: 450, fileFolder: 'assets/character', fileName: 'static.gif' })
 }
 
 function increaseScore() {
