@@ -56,11 +56,11 @@ class Adapter {
       .then(res => res.json())
 
     let formattedLevelQuestions = gameInfo.questions.map(questionObject => {
-      let formattedOptions = questionObject.options.map(option => ({
-        1: option["1"],
-        2: option["2"],
-        3: option["3"]
-      }))
+      let formattedOptions = {
+        1: questionObject.options[1],
+        2: questionObject.options[2],
+        3: questionObject.options[3]
+      }
 
       return {
         id: questionObject.id,
@@ -70,21 +70,21 @@ class Adapter {
       }
     })
 
-    let formattedGridSpaces = gameInfo.grid_spaces.map(gridSpaceObject => ({
-      id: gridSpaceObject.id,
-      levelId: gridSpaceObject.level_id,
-      passThrough: gridSpaceObject.pass_through,
-      startingX: gridSpaceObject.x_coor,
-      startingY: gridSpaceObject.y_coor,
-      width: gridSpaceObject.width,
-      height: gridSpaceObject.height,
-      fileFolder: gridSpaceObject.image_src,
-      fileName: gridSpaceObject.file_name
+    let formattedGridItems = gameInfo.grid_spaces.map(gridItemObject => ({
+      id: gridItemObject.id,
+      levelId: gridItemObject.level_id,
+      passThrough: gridItemObject.pass_through,
+      startingX: gridItemObject.x_coor,
+      startingY: gridItemObject.y_coor,
+      width: gridItemObject.width,
+      height: gridItemObject.height,
+      fileFolder: gridItemObject.image_src,
+      fileName: gridItemObject.file_name
     }))
 
     let formattedEventPieces = gameInfo.event_pieces.map(eventPieceObject => ({
       id: eventPieceObject.id,
-      questionId: eventPieceObject.question_id
+      questionId: eventPieceObject.question_id,
       passThrough: false,
       startingX: eventPieceObject.x_coor,
       startingY: eventPieceObject.y_coor,
@@ -98,8 +98,8 @@ class Adapter {
       gameId: gameInfo.id,
       score: gameInfo.score,
       levelQuestions:formattedLevelQuestions,
-      gridSpaces: formattedGridSpaces,
-      eventPieces: formattedGridSpaces
+      gridItems: formattedGridItems,
+      eventPieces: formattedEventPieces
     }
   }
 
@@ -113,7 +113,7 @@ class Adapter {
         game_id: questionObject.gameId,
         question_id: questionObject.questionId,
         user_answer: questionObject.responseId
-        //The object data that needs to updated
+        //note: The object data that needs to updated
         //gameid, questionid, responseID
       })
     })

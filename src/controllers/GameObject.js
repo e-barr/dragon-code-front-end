@@ -1,11 +1,12 @@
 class GameObject {
-  constructor({startingX=0, startingY=0, width, height, fileFolder, fileName}) {
+  constructor({startingX=0, startingY=0, width=25, height=25, fileFolder, fileName, passThrough=false}) {
     this.element = document.createElement('img')
+    this.passThrough = passThrough
     this.assets = fileFolder
-    this.element.src = `${this.assets}/${this.fileName}`
+    this.element.src = `${this.assets}/${fileName}`
     this.element.style.position = 'absolute'
     this.width = width
-    this.height = height 
+    this.height = height
     this.x = startingX
     this.y = startingY
     document.body.appendChild(this.element)

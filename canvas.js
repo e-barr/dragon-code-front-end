@@ -1,4 +1,4 @@
-  char = new Character(200, 200)
+  char = new Character({startingX: 200, startingY: 200, fileFolder: 'assets/character', fileName: 'static.gif'})
 
   let randomCoordinate = 50 * Math.round(Math.random() * 10)
 

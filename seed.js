@@ -29,7 +29,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 0,
             "y_coor": 0,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -41,7 +41,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 0,
             "y_coor": 0,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -53,7 +53,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 0,
             "y_coor": 0,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -65,7 +65,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 0,
             "y_coor": 0,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -77,7 +77,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 0,
             "y_coor": 0,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -89,7 +89,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 0,
             "y_coor": 0,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -101,7 +101,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 0,
             "y_coor": 0,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -113,7 +113,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 0,
             "y_coor": 0,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -125,7 +125,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 0,
             "y_coor": 0,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -137,7 +137,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 0,
             "y_coor": 0,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -149,7 +149,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 1,
             "y_coor": 1,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -161,7 +161,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 1,
             "y_coor": 1,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -173,7 +173,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 1,
             "y_coor": 1,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -185,7 +185,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 1,
             "y_coor": 1,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -197,7 +197,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 1,
             "y_coor": 1,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -209,7 +209,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 1,
             "y_coor": 1,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -221,7 +221,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 1,
             "y_coor": 1,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -233,7 +233,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 1,
             "y_coor": 1,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -245,7 +245,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 1,
             "y_coor": 1,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -257,7 +257,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 1,
             "y_coor": 1,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -269,7 +269,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 2,
             "y_coor": 2,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -281,7 +281,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 2,
             "y_coor": 2,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -293,7 +293,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 2,
             "y_coor": 2,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -305,7 +305,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 2,
             "y_coor": 2,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -317,7 +317,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 2,
             "y_coor": 2,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -329,7 +329,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 2,
             "y_coor": 2,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -341,7 +341,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 2,
             "y_coor": 2,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -353,7 +353,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 2,
             "y_coor": 2,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -365,7 +365,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 2,
             "y_coor": 2,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -377,7 +377,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 2,
             "y_coor": 2,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -389,7 +389,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 3,
             "y_coor": 3,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -401,7 +401,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 3,
             "y_coor": 3,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -413,7 +413,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 3,
             "y_coor": 3,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -425,7 +425,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 3,
             "y_coor": 3,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -437,7 +437,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 3,
             "y_coor": 3,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -449,7 +449,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 3,
             "y_coor": 3,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -461,7 +461,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 3,
             "y_coor": 3,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -473,7 +473,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 3,
             "y_coor": 3,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -485,7 +485,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 3,
             "y_coor": 3,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -497,7 +497,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 3,
             "y_coor": 3,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -509,7 +509,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 4,
             "y_coor": 4,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -521,7 +521,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 4,
             "y_coor": 4,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -533,7 +533,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 4,
             "y_coor": 4,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -545,7 +545,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 4,
             "y_coor": 4,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -557,7 +557,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 4,
             "y_coor": 4,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -569,7 +569,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 4,
             "y_coor": 4,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -581,7 +581,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 4,
             "y_coor": 4,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -593,7 +593,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 4,
             "y_coor": 4,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -605,7 +605,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 4,
             "y_coor": 4,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -617,7 +617,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 4,
             "y_coor": 4,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -629,7 +629,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 5,
             "y_coor": 5,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -641,7 +641,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 5,
             "y_coor": 5,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -653,7 +653,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 5,
             "y_coor": 5,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -665,7 +665,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 5,
             "y_coor": 5,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -677,7 +677,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 5,
             "y_coor": 5,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -689,7 +689,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 5,
             "y_coor": 5,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -701,7 +701,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 5,
             "y_coor": 5,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -713,7 +713,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 5,
             "y_coor": 5,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -725,7 +725,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 5,
             "y_coor": 5,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -737,7 +737,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 5,
             "y_coor": 5,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -749,7 +749,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 6,
             "y_coor": 6,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -761,7 +761,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 6,
             "y_coor": 6,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -773,7 +773,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 6,
             "y_coor": 6,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -785,7 +785,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 6,
             "y_coor": 6,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -797,7 +797,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 6,
             "y_coor": 6,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -809,7 +809,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 6,
             "y_coor": 6,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -821,7 +821,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 6,
             "y_coor": 6,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -833,7 +833,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 6,
             "y_coor": 6,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -845,7 +845,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 6,
             "y_coor": 6,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -857,7 +857,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 6,
             "y_coor": 6,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -869,7 +869,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 7,
             "y_coor": 7,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -881,7 +881,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 7,
             "y_coor": 7,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -893,7 +893,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 7,
             "y_coor": 7,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -905,7 +905,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 7,
             "y_coor": 7,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -917,7 +917,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 7,
             "y_coor": 7,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -929,7 +929,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 7,
             "y_coor": 7,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -941,7 +941,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 7,
             "y_coor": 7,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -953,7 +953,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 7,
             "y_coor": 7,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -965,7 +965,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 7,
             "y_coor": 7,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -977,7 +977,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 7,
             "y_coor": 7,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -989,7 +989,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 8,
             "y_coor": 8,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -1001,7 +1001,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 8,
             "y_coor": 8,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -1013,7 +1013,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 8,
             "y_coor": 8,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -1025,7 +1025,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 8,
             "y_coor": 8,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -1037,7 +1037,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 8,
             "y_coor": 8,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -1049,7 +1049,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 8,
             "y_coor": 8,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -1061,7 +1061,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 8,
             "y_coor": 8,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -1073,7 +1073,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 8,
             "y_coor": 8,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -1085,7 +1085,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 8,
             "y_coor": 8,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -1097,7 +1097,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 8,
             "y_coor": 8,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -1109,7 +1109,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 9,
             "y_coor": 9,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -1121,7 +1121,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 9,
             "y_coor": 9,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -1133,7 +1133,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 9,
             "y_coor": 9,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -1145,7 +1145,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 9,
             "y_coor": 9,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -1157,7 +1157,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 9,
             "y_coor": 9,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -1169,7 +1169,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 9,
             "y_coor": 9,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -1181,7 +1181,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 9,
             "y_coor": 9,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -1193,7 +1193,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 9,
             "y_coor": 9,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -1205,7 +1205,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 9,
             "y_coor": 9,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -1217,7 +1217,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 9,
             "y_coor": 9,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -1229,7 +1229,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 0,
             "y_coor": 0,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -1241,7 +1241,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 0,
             "y_coor": 0,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -1253,7 +1253,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 0,
             "y_coor": 0,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -1265,7 +1265,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 0,
             "y_coor": 0,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -1277,7 +1277,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 0,
             "y_coor": 0,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -1289,7 +1289,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 0,
             "y_coor": 0,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -1301,7 +1301,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 0,
             "y_coor": 0,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -1313,7 +1313,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 0,
             "y_coor": 0,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -1325,7 +1325,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 0,
             "y_coor": 0,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -1337,7 +1337,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 0,
             "y_coor": 0,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -1349,7 +1349,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 1,
             "y_coor": 1,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -1361,7 +1361,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 1,
             "y_coor": 1,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -1373,7 +1373,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 1,
             "y_coor": 1,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -1385,7 +1385,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 1,
             "y_coor": 1,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -1397,7 +1397,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 1,
             "y_coor": 1,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -1409,7 +1409,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 1,
             "y_coor": 1,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -1421,7 +1421,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 1,
             "y_coor": 1,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -1433,7 +1433,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 1,
             "y_coor": 1,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -1445,7 +1445,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 1,
             "y_coor": 1,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -1457,7 +1457,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 1,
             "y_coor": 1,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -1469,7 +1469,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 2,
             "y_coor": 2,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -1481,7 +1481,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 2,
             "y_coor": 2,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -1493,7 +1493,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 2,
             "y_coor": 2,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -1505,7 +1505,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 2,
             "y_coor": 2,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -1517,7 +1517,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 2,
             "y_coor": 2,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -1529,7 +1529,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 2,
             "y_coor": 2,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -1541,7 +1541,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 2,
             "y_coor": 2,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -1553,7 +1553,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 2,
             "y_coor": 2,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -1565,7 +1565,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 2,
             "y_coor": 2,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -1577,7 +1577,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 2,
             "y_coor": 2,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -1589,7 +1589,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 3,
             "y_coor": 3,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -1601,7 +1601,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 3,
             "y_coor": 3,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -1613,7 +1613,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 3,
             "y_coor": 3,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -1625,7 +1625,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 3,
             "y_coor": 3,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -1637,7 +1637,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 3,
             "y_coor": 3,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -1649,7 +1649,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 3,
             "y_coor": 3,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -1661,7 +1661,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 3,
             "y_coor": 3,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -1673,7 +1673,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 3,
             "y_coor": 3,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -1685,7 +1685,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 3,
             "y_coor": 3,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -1697,7 +1697,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 3,
             "y_coor": 3,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -1709,7 +1709,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 4,
             "y_coor": 4,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -1721,7 +1721,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 4,
             "y_coor": 4,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -1733,7 +1733,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 4,
             "y_coor": 4,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -1745,7 +1745,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 4,
             "y_coor": 4,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -1757,7 +1757,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 4,
             "y_coor": 4,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -1769,7 +1769,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 4,
             "y_coor": 4,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -1781,7 +1781,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 4,
             "y_coor": 4,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -1793,7 +1793,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 4,
             "y_coor": 4,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -1805,7 +1805,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 4,
             "y_coor": 4,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -1817,7 +1817,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 4,
             "y_coor": 4,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -1829,7 +1829,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 5,
             "y_coor": 5,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -1841,7 +1841,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 5,
             "y_coor": 5,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -1853,7 +1853,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 5,
             "y_coor": 5,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -1865,7 +1865,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 5,
             "y_coor": 5,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -1877,7 +1877,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 5,
             "y_coor": 5,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -1889,7 +1889,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 5,
             "y_coor": 5,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -1901,7 +1901,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 5,
             "y_coor": 5,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -1913,7 +1913,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 5,
             "y_coor": 5,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -1925,7 +1925,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 5,
             "y_coor": 5,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -1937,7 +1937,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 5,
             "y_coor": 5,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -1949,7 +1949,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 6,
             "y_coor": 6,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -1961,7 +1961,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 6,
             "y_coor": 6,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -1973,7 +1973,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 6,
             "y_coor": 6,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -1985,7 +1985,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 6,
             "y_coor": 6,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -1997,7 +1997,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 6,
             "y_coor": 6,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -2009,7 +2009,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 6,
             "y_coor": 6,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -2021,7 +2021,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 6,
             "y_coor": 6,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -2033,7 +2033,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 6,
             "y_coor": 6,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -2045,7 +2045,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 6,
             "y_coor": 6,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -2057,7 +2057,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 6,
             "y_coor": 6,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -2069,7 +2069,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 7,
             "y_coor": 7,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -2081,7 +2081,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 7,
             "y_coor": 7,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -2093,7 +2093,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 7,
             "y_coor": 7,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -2105,7 +2105,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 7,
             "y_coor": 7,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -2117,7 +2117,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 7,
             "y_coor": 7,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -2129,7 +2129,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 7,
             "y_coor": 7,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -2141,7 +2141,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 7,
             "y_coor": 7,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -2153,7 +2153,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 7,
             "y_coor": 7,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -2165,7 +2165,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 7,
             "y_coor": 7,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -2177,7 +2177,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 7,
             "y_coor": 7,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -2189,7 +2189,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 8,
             "y_coor": 8,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -2201,7 +2201,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 8,
             "y_coor": 8,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -2213,7 +2213,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 8,
             "y_coor": 8,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -2225,7 +2225,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 8,
             "y_coor": 8,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -2237,7 +2237,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 8,
             "y_coor": 8,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -2249,7 +2249,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 8,
             "y_coor": 8,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -2261,7 +2261,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 8,
             "y_coor": 8,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -2273,7 +2273,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 8,
             "y_coor": 8,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -2285,7 +2285,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 8,
             "y_coor": 8,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -2297,7 +2297,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 8,
             "y_coor": 8,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -2309,7 +2309,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 9,
             "y_coor": 9,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -2321,7 +2321,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 9,
             "y_coor": 9,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -2333,7 +2333,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 9,
             "y_coor": 9,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -2345,7 +2345,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 9,
             "y_coor": 9,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -2357,7 +2357,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 9,
             "y_coor": 9,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -2369,7 +2369,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 9,
             "y_coor": 9,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -2381,7 +2381,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 9,
             "y_coor": 9,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -2393,7 +2393,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 9,
             "y_coor": 9,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -2405,7 +2405,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 9,
             "y_coor": 9,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -2417,7 +2417,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 9,
             "y_coor": 9,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -2429,7 +2429,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 0,
             "y_coor": 0,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -2441,7 +2441,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 0,
             "y_coor": 0,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -2453,7 +2453,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 0,
             "y_coor": 0,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -2465,7 +2465,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 0,
             "y_coor": 0,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -2477,7 +2477,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 0,
             "y_coor": 0,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -2489,7 +2489,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 0,
             "y_coor": 0,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -2501,7 +2501,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 0,
             "y_coor": 0,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -2513,7 +2513,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 0,
             "y_coor": 0,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -2525,7 +2525,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 0,
             "y_coor": 0,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -2537,7 +2537,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 0,
             "y_coor": 0,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -2549,7 +2549,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 1,
             "y_coor": 1,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -2561,7 +2561,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 1,
             "y_coor": 1,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -2573,7 +2573,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 1,
             "y_coor": 1,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -2585,7 +2585,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 1,
             "y_coor": 1,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -2597,7 +2597,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 1,
             "y_coor": 1,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -2609,7 +2609,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 1,
             "y_coor": 1,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -2621,7 +2621,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 1,
             "y_coor": 1,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -2633,7 +2633,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 1,
             "y_coor": 1,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -2645,7 +2645,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 1,
             "y_coor": 1,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -2657,7 +2657,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 1,
             "y_coor": 1,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -2669,7 +2669,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 2,
             "y_coor": 2,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -2681,7 +2681,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 2,
             "y_coor": 2,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -2693,7 +2693,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 2,
             "y_coor": 2,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -2705,7 +2705,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 2,
             "y_coor": 2,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -2717,7 +2717,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 2,
             "y_coor": 2,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -2729,7 +2729,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 2,
             "y_coor": 2,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -2741,7 +2741,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 2,
             "y_coor": 2,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -2753,7 +2753,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 2,
             "y_coor": 2,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -2765,7 +2765,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 2,
             "y_coor": 2,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -2777,7 +2777,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 2,
             "y_coor": 2,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -2789,7 +2789,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 3,
             "y_coor": 3,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -2801,7 +2801,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 3,
             "y_coor": 3,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -2813,7 +2813,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 3,
             "y_coor": 3,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -2825,7 +2825,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 3,
             "y_coor": 3,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -2837,7 +2837,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 3,
             "y_coor": 3,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -2849,7 +2849,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 3,
             "y_coor": 3,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -2861,7 +2861,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 3,
             "y_coor": 3,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -2873,7 +2873,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 3,
             "y_coor": 3,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -2885,7 +2885,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 3,
             "y_coor": 3,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -2897,7 +2897,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 3,
             "y_coor": 3,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -2909,7 +2909,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 4,
             "y_coor": 4,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -2921,7 +2921,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 4,
             "y_coor": 4,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -2933,7 +2933,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 4,
             "y_coor": 4,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -2945,7 +2945,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 4,
             "y_coor": 4,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -2957,7 +2957,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 4,
             "y_coor": 4,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -2969,7 +2969,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 4,
             "y_coor": 4,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -2981,7 +2981,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 4,
             "y_coor": 4,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -2993,7 +2993,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 4,
             "y_coor": 4,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -3005,7 +3005,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 4,
             "y_coor": 4,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -3017,7 +3017,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 4,
             "y_coor": 4,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -3029,7 +3029,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 5,
             "y_coor": 5,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -3041,7 +3041,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 5,
             "y_coor": 5,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -3053,7 +3053,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 5,
             "y_coor": 5,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -3065,7 +3065,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 5,
             "y_coor": 5,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -3077,7 +3077,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 5,
             "y_coor": 5,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -3089,7 +3089,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 5,
             "y_coor": 5,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -3101,7 +3101,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 5,
             "y_coor": 5,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -3113,7 +3113,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 5,
             "y_coor": 5,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -3125,7 +3125,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 5,
             "y_coor": 5,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -3137,7 +3137,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 5,
             "y_coor": 5,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -3149,7 +3149,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 6,
             "y_coor": 6,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -3161,7 +3161,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 6,
             "y_coor": 6,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -3173,7 +3173,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 6,
             "y_coor": 6,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -3185,7 +3185,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 6,
             "y_coor": 6,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -3197,7 +3197,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 6,
             "y_coor": 6,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -3209,7 +3209,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 6,
             "y_coor": 6,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -3221,7 +3221,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 6,
             "y_coor": 6,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -3233,7 +3233,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 6,
             "y_coor": 6,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -3245,7 +3245,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 6,
             "y_coor": 6,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -3257,7 +3257,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 6,
             "y_coor": 6,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -3269,7 +3269,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 7,
             "y_coor": 7,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -3281,7 +3281,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 7,
             "y_coor": 7,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -3293,7 +3293,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 7,
             "y_coor": 7,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -3305,7 +3305,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 7,
             "y_coor": 7,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -3317,7 +3317,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 7,
             "y_coor": 7,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -3329,7 +3329,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 7,
             "y_coor": 7,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -3341,7 +3341,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 7,
             "y_coor": 7,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -3353,7 +3353,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 7,
             "y_coor": 7,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -3365,7 +3365,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 7,
             "y_coor": 7,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -3377,7 +3377,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 7,
             "y_coor": 7,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -3389,7 +3389,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 8,
             "y_coor": 8,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -3401,7 +3401,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 8,
             "y_coor": 8,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -3413,7 +3413,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 8,
             "y_coor": 8,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -3425,7 +3425,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 8,
             "y_coor": 8,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -3437,7 +3437,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 8,
             "y_coor": 8,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -3449,7 +3449,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 8,
             "y_coor": 8,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -3461,7 +3461,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 8,
             "y_coor": 8,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -3473,7 +3473,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 8,
             "y_coor": 8,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -3485,7 +3485,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 8,
             "y_coor": 8,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -3497,7 +3497,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 8,
             "y_coor": 8,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -3509,7 +3509,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 9,
             "y_coor": 9,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -3521,7 +3521,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 9,
             "y_coor": 9,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -3533,7 +3533,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 9,
             "y_coor": 9,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -3545,7 +3545,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 9,
             "y_coor": 9,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -3557,7 +3557,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 9,
             "y_coor": 9,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -3569,7 +3569,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 9,
             "y_coor": 9,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -3581,7 +3581,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 9,
             "y_coor": 9,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -3593,7 +3593,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 9,
             "y_coor": 9,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -3605,7 +3605,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 9,
             "y_coor": 9,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -3617,7 +3617,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 9,
             "y_coor": 9,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -3629,7 +3629,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 0,
             "y_coor": 0,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -3641,7 +3641,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 0,
             "y_coor": 0,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -3653,7 +3653,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 0,
             "y_coor": 0,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -3665,7 +3665,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 0,
             "y_coor": 0,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -3677,7 +3677,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 0,
             "y_coor": 0,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -3689,7 +3689,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 0,
             "y_coor": 0,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -3701,7 +3701,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 0,
             "y_coor": 0,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -3713,7 +3713,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 0,
             "y_coor": 0,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -3725,7 +3725,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 0,
             "y_coor": 0,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -3737,7 +3737,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 0,
             "y_coor": 0,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -3749,7 +3749,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 1,
             "y_coor": 1,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -3761,7 +3761,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 1,
             "y_coor": 1,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -3773,7 +3773,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 1,
             "y_coor": 1,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -3785,7 +3785,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 1,
             "y_coor": 1,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -3797,7 +3797,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 1,
             "y_coor": 1,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -3809,7 +3809,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 1,
             "y_coor": 1,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -3821,7 +3821,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 1,
             "y_coor": 1,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -3833,7 +3833,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 1,
             "y_coor": 1,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -3845,7 +3845,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 1,
             "y_coor": 1,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -3857,7 +3857,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 1,
             "y_coor": 1,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -3869,7 +3869,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 2,
             "y_coor": 2,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -3881,7 +3881,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 2,
             "y_coor": 2,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -3893,7 +3893,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 2,
             "y_coor": 2,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -3905,7 +3905,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 2,
             "y_coor": 2,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -3917,7 +3917,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 2,
             "y_coor": 2,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -3929,7 +3929,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 2,
             "y_coor": 2,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -3941,7 +3941,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 2,
             "y_coor": 2,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -3953,7 +3953,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 2,
             "y_coor": 2,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -3965,7 +3965,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 2,
             "y_coor": 2,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -3977,7 +3977,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 2,
             "y_coor": 2,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -3989,7 +3989,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 3,
             "y_coor": 3,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -4001,7 +4001,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 3,
             "y_coor": 3,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -4013,7 +4013,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 3,
             "y_coor": 3,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -4025,7 +4025,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 3,
             "y_coor": 3,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -4037,7 +4037,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 3,
             "y_coor": 3,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -4049,7 +4049,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 3,
             "y_coor": 3,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -4061,7 +4061,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 3,
             "y_coor": 3,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -4073,7 +4073,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 3,
             "y_coor": 3,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -4085,7 +4085,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 3,
             "y_coor": 3,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -4097,7 +4097,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 3,
             "y_coor": 3,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -4109,7 +4109,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 4,
             "y_coor": 4,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -4121,7 +4121,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 4,
             "y_coor": 4,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -4133,7 +4133,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 4,
             "y_coor": 4,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -4145,7 +4145,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 4,
             "y_coor": 4,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -4157,7 +4157,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 4,
             "y_coor": 4,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -4169,7 +4169,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 4,
             "y_coor": 4,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -4181,7 +4181,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 4,
             "y_coor": 4,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -4193,7 +4193,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 4,
             "y_coor": 4,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -4205,7 +4205,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 4,
             "y_coor": 4,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -4217,7 +4217,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 4,
             "y_coor": 4,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -4229,7 +4229,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 5,
             "y_coor": 5,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -4241,7 +4241,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 5,
             "y_coor": 5,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -4253,7 +4253,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 5,
             "y_coor": 5,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -4265,7 +4265,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 5,
             "y_coor": 5,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -4277,7 +4277,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 5,
             "y_coor": 5,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -4289,7 +4289,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 5,
             "y_coor": 5,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -4301,7 +4301,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 5,
             "y_coor": 5,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -4313,7 +4313,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 5,
             "y_coor": 5,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -4325,7 +4325,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 5,
             "y_coor": 5,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -4337,7 +4337,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 5,
             "y_coor": 5,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -4349,7 +4349,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 6,
             "y_coor": 6,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -4361,7 +4361,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 6,
             "y_coor": 6,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -4373,7 +4373,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 6,
             "y_coor": 6,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -4385,7 +4385,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 6,
             "y_coor": 6,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -4397,7 +4397,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 6,
             "y_coor": 6,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -4409,7 +4409,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 6,
             "y_coor": 6,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -4421,7 +4421,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 6,
             "y_coor": 6,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -4433,7 +4433,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 6,
             "y_coor": 6,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -4445,7 +4445,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 6,
             "y_coor": 6,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -4457,7 +4457,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 6,
             "y_coor": 6,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -4469,7 +4469,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 7,
             "y_coor": 7,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -4481,7 +4481,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 7,
             "y_coor": 7,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -4493,7 +4493,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 7,
             "y_coor": 7,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -4505,7 +4505,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 7,
             "y_coor": 7,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -4517,7 +4517,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 7,
             "y_coor": 7,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -4529,7 +4529,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 7,
             "y_coor": 7,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -4541,7 +4541,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 7,
             "y_coor": 7,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -4553,7 +4553,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 7,
             "y_coor": 7,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -4565,7 +4565,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 7,
             "y_coor": 7,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -4577,7 +4577,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 7,
             "y_coor": 7,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -4589,7 +4589,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 8,
             "y_coor": 8,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -4601,7 +4601,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 8,
             "y_coor": 8,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -4613,7 +4613,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 8,
             "y_coor": 8,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -4625,7 +4625,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 8,
             "y_coor": 8,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -4637,7 +4637,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 8,
             "y_coor": 8,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -4649,7 +4649,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 8,
             "y_coor": 8,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -4661,7 +4661,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 8,
             "y_coor": 8,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -4673,7 +4673,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 8,
             "y_coor": 8,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -4685,7 +4685,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 8,
             "y_coor": 8,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -4697,7 +4697,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 8,
             "y_coor": 8,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -4709,7 +4709,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 9,
             "y_coor": 9,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -4721,7 +4721,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 9,
             "y_coor": 9,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -4733,7 +4733,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 9,
             "y_coor": 9,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -4745,7 +4745,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 9,
             "y_coor": 9,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -4757,7 +4757,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 9,
             "y_coor": 9,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -4769,7 +4769,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 9,
             "y_coor": 9,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -4781,7 +4781,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 9,
             "y_coor": 9,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -4793,7 +4793,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 9,
             "y_coor": 9,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -4805,7 +4805,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 9,
             "y_coor": 9,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
@@ -4817,7 +4817,7 @@ let seedData = {
             "pass_through": true,
             "x_coor": 9,
             "y_coor": 9,
-            "image_src": "/assets/gridpieces",
+            "image_src": "/assets/griditems",
             "file_name": "dirt0.png",
             "width": 25,
             "height": 25
