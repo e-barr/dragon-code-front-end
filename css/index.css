@@ -2,7 +2,15 @@
 @import url("https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
 
 /* Overlay feature ====================================== */
-
+.bar-dragon {
+    height: 25%x;
+    width: 25%;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    /* margin-left: -50px !important;  50% of your logo width */
+    /* display: block; */
+}
 .dragon-title {
   font-size: 3em !important;
   font-weight: bold;

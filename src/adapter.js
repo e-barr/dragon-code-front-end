@@ -55,6 +55,8 @@ class Adapter {
     })
       .then(res => res.json())
 
+    // debugger
+
     let formattedLevelQuestions = gameInfo.questions.map(questionObject => {
       let formattedOptions = {
         1: questionObject.options[1],

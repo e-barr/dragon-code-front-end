@@ -5,7 +5,7 @@ class EventPiece extends GameObject {
     this.questionId = questionId
     this.on('collision', character => {
       //note: ask josh about on bug; getting "this.on is not a function"
-      debugger
+      // debugger
       renderQuestionAndOptions(this.questionId)
     })
   }

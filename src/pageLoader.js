@@ -6,46 +6,22 @@ const overlayContent = document.querySelector('#overlay-content')
 
 
 
-function renderQuestionAndOptions(question) {
-  let currentQuestion = question
+function renderQuestionAndOptions(questionId) {
+  let currentQuestion = Question.getOneQuestion(questionId)
   overlayContent.innerHTML = currentQuestion.render()
   overlayContentOn()
+  questionEventListener()
 }
 function renderTopBar() {
   return `<nav class="navbar navbar-icon-top navbar-expand-lg navbar-dark bg-dark">
-  <img src="img/dragon.png" alt="Logo" title="Logo">
-  <a class="navbar-brand" href="#">Dragon Code</a>
 
-
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-<!--     <ul class="navbar-nav mr-auto">
-      <li class="nav-item active">
-        <a class="nav-link" href="#">
-          <i class="fa fa-home"></i>
-          Home
-          <span class="sr-only">(current)</span>
-          </a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">
-          <i class="fa fa-envelope-o">
-            <span class="badge badge-danger">11</span>
-          </i>
-          Messages
-        </a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link disabled" href="#">
-          <i class="fa fa-envelope-o center-left">
-            <span class="badge badge-danger">11</span>
-          </i>
-          Disabled
-        </a>
-      </li>
-    </ul> -->
-
+  <h3 class="navbar-brand" href="#">Dragon Code</h3>
+  <div text>
+  <img src="img/dragon-introwhite.png" alt="Logo" title="Logo" class="bar-dragon">
   </div>
 
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+  </div>
   <div class="navbar">
     <ul class="navbar-nav">
 
@@ -58,8 +34,6 @@ function renderLoginBox() {
   return `< div class="container" >
     <div id="login" class="signin-card text-center">
       <div class="logo-image" id="logo-image">
-      <h1 class="display1 text-light dragon-title dragon-title">Dragon</h1>
-      <br>
         <h1 class="display1 text-light code-title">C<span><img src="img/dragon-intro2white.png" alt="Logo" title="Logo" width="138"></span>DE</h1>
   </div>
   <br>
@@ -99,7 +73,8 @@ function loadAlert(correctBool) {
 
   function headerText() { return correctBool ? 'Well Done!' : 'Try again!' }
   function paragraphText() { return correctBool ? `You are correct the right answer is ${Question.currentQuestion.answer} ` : `The correct answer was ${Question.currentQuestion.answer} ` }
-  return `< div class="alert ${successOrFailureAlert} alert-dismissible fade show" role = "alert" >
+
+  return `<div class="alert ${successOrFailureAlert} alert-dismissible fade show" role="alert" >
   <h4 class="alert-heading">${headerText()}</h4>
   <hr>
     <p>${paragraphText()}.</p>

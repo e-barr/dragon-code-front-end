@@ -32,13 +32,16 @@ const Question = (() => {
       return this.answer === playerAnswer
     }
 
-    static getOneQuestion() {
-      let newQuestion = this.all.shift();
+    static getOneQuestion(questionID) {
+
+
+
+      let newQuestion = this.all.find((question) => { return question.id === questionID })
       this.currentQuestion = newQuestion
       this.asked.push(newQuestion)
       this.currentOptions = newQuestion.options
-      renderQuestionAndOptions(newQuestion)
-      questionEventListener()
+      return newQuestion
+
     }
 
     static shuffleQuestions() {
