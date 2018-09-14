@@ -1,4 +1,5 @@
 const stepSize = 1//window.innerHeight / grid.length;
+let pauseGame = false
 
 class Character extends GameObject {
   constructor(options){
@@ -9,7 +10,6 @@ class Character extends GameObject {
     window.addEventListener('keydown', e => this.move(e))
     window.addEventListener('keyup', e => this.stop())
   }
-
 
   futureLocation(direction) {
     let futureXLocation = this.x
@@ -98,7 +98,7 @@ class Character extends GameObject {
   }
 
   move(e) {
-    if (!this.movement) {
+    if (!this.movement && !pauseGame) {
       if (e.key == 'ArrowUp') {
         e.preventDefault()
         this.walkUp()

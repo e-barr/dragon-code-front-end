@@ -12,7 +12,7 @@ async function getGameInfo(usernameObject) {
   createGridItems(gameObject.gridItems)
   createEventPieces(gameObject.eventPieces)
 
-  char = new Character({ startingX: 450, startingY: 450, fileFolder: 'assets/character', fileName: 'static.gif' })
+  char = new Character({ startingX: 450, startingY: 450, fileFolder: 'assets/character', fileName: 'static.gif', width: 50, height: 50 })
 }
 
 function increaseScore() {
@@ -37,8 +37,8 @@ function createGridItems(gridItemArray) {
   gridItemArray.forEach(gridItemObject => {
     gridItemObject.startingX *= 25
     gridItemObject.startingY *= 25
-    gridItemObject.startingX += 400
-    gridItemObject.startingY += 400
+    // gridItemObject.startingX += 400
+    // gridItemObject.startingY += 400
 
     new GridItem(gridItemObject)
   })
@@ -48,8 +48,18 @@ function createEventPieces(eventPiecesArray) {
   eventPiecesArray.forEach(eventPieceObject => {
     eventPieceObject.startingX *= 25
     eventPieceObject.startingY *= 25
-    eventPieceObject.startingX += 400
-    eventPieceObject.startingY += 400
+
+    if (eventPieceObject.fileName === "closed_chest.png") {
+      eventPieceObject.width = 25
+      eventPieceObject.height = 25
+    } else {
+      eventPieceObject.width = 50
+      eventPieceObject.height = 50
+    }
+
+    // debugger;
+    // eventPieceObject.startingX += 400
+    // eventPieceObject.startingY += 400
     new EventPiece(eventPieceObject)
   })
 }

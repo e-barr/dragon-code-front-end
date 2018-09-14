@@ -6,11 +6,12 @@ const overlayContent = document.querySelector('#overlay-content')
 
 
 
-function renderQuestionAndOptions(questionId) {
+function renderQuestionAndOptions(questionId, character) {
   let currentQuestion = Question.getOneQuestion(questionId)
   overlayContent.innerHTML = currentQuestion.render()
   overlayContentOn()
-  questionEventListener()
+  questionEventListener(character)
+
 }
 
 function renderTopBar() {

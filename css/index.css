@@ -2,6 +2,21 @@
 @import url("https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
 
 /* Overlay feature ====================================== */
+
+.gameboard-content {
+    width: 100px;
+    height: 100px;
+    /* background-color: red; */
+    margin: 10% 25% 25%;
+    position: relative;
+    top:0;
+    bottom: 0;
+
+  align-items: center;
+  /* display: flex; */
+  justify-content: center;
+    /* margin: 50%; */
+}
 .bar-dragon {
     height: 25%x;
     width: 25%;
@@ -35,7 +50,7 @@
     right: 0;
     bottom: 0;
     /* background-color: rgba(0,0,0,0.5); */
-    /* z-index: 2; */
+    z-index: 2;
     cursor: pointer;
     /* text-align: center; */
     margin: auto;

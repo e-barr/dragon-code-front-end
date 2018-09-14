@@ -72,17 +72,23 @@ class Adapter {
       }
     })
 
-    let formattedGridItems = gameInfo.grid_spaces.map(gridItemObject => ({
-      id: gridItemObject.id,
-      levelId: gridItemObject.level_id,
-      passThrough: gridItemObject.pass_through,
-      startingX: gridItemObject.x_coor,
-      startingY: gridItemObject.y_coor,
-      width: gridItemObject.width,
-      height: gridItemObject.height,
-      fileFolder: gridItemObject.image_src,
-      fileName: gridItemObject.file_name
-    }))
+    let formattedGridItems = gameInfo.grid_spaces.map(gridItemObject => {
+      if (gridItemObject.file_name == "dirt0.png") {
+        gridItemObject.pass_through = true
+      }
+
+      return {
+        id: gridItemObject.id,
+        levelId: gridItemObject.level_id,
+        passThrough: gridItemObject.pass_through,
+        startingX: gridItemObject.x_coor,
+        startingY: gridItemObject.y_coor,
+        width: gridItemObject.width,
+        height: gridItemObject.height,
+        fileFolder: gridItemObject.image_src,
+        fileName: gridItemObject.file_name
+      }
+    })
 
     let formattedEventPieces = gameInfo.event_pieces.map(eventPieceObject => ({
       id: eventPieceObject.id,
@@ -99,7 +105,7 @@ class Adapter {
     return {
       gameId: gameInfo.id,
       score: gameInfo.score,
-      levelQuestions:formattedLevelQuestions,
+      levelQuestions: formattedLevelQuestions,
       gridItems: formattedGridItems,
       eventPieces: formattedEventPieces
     }

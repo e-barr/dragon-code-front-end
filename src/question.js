@@ -77,7 +77,7 @@ const Question = (() => {
 })();
 
 
-function questionEventListener() {
+function questionEventListener(character) {
   let questiondiv = document.querySelector('#question')
 
   questiondiv.addEventListener('click', (event) => {
@@ -86,6 +86,7 @@ function questionEventListener() {
     let correctAnswer = Question.currentQuestion.isCorrect(Question.currentQuestion.options[responseID])
     overlayContent.innerHTML = loadAlert(correctAnswer)
     if (correctAnswer) { increaseScore() }
+    pauseGame = false
     // overlayContent.innerHTML = ''
 
     // Adapter.updateQuestion({ id: Question.currentQuestion.id, gameid: gameId, questionId: Question.currentQuestion.id, responseId: responseID })
