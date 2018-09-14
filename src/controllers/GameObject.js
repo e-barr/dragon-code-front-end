@@ -1,5 +1,6 @@
-class GameObject {
+class GameObject extends EventEmitter {
   constructor({startingX=0, startingY=0, width=25, height=25, fileFolder, fileName, passThrough=false}) {
+    super()
     this.element = document.createElement('img')
     this.passThrough = passThrough
     this.assets = fileFolder

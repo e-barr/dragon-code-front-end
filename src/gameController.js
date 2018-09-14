@@ -10,6 +10,8 @@ async function getGameInfo(usernameObject) {
   createLevelQuestions(gameObject.levelQuestions)
   createGridItems(gameObject.gridItems)
   createEventPieces(gameObject.eventPieces)
+  
+  char = new Character({startingX: 400, startingY: 400, fileFolder: 'assets/character', fileName: 'static.gif'})
 }
 
 async function getOneQuestion(gameId) {

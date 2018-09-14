@@ -48,7 +48,7 @@ class Character extends GameObject {
           &&
         ((myTop <= pageObjectBottom && myTop >= pageObjectTop) || (myBottom <= pageObjectBottom && myBottom >= pageObjectTop) || (myTop <= pageObjectTop && myBottom >= pageObjectBottom))
       ) {
-        // pageObject.emit('collision', this)
+        pageObject.emit('collision', this)
         // note: ask Josh why emit is not a function when run in this scope
 
         if (!pageObject.passThrough) {
