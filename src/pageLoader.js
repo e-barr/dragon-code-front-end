@@ -15,7 +15,7 @@ function renderQuestionAndOptions(questionId) {
 function renderTopBar() {
   return `<nav class="navbar navbar-icon-top navbar-expand-lg navbar-dark bg-dark">
 
-  <h3 class="navbar-brand" href="#">Dragon Code</h3>
+  <h3 class="navbar-brand" id="user-name">${username.toUpperCase()}</h3>
   <div text>
   <img src="img/dragon-introwhite.png" alt="Logo" title="Logo" class="bar-dragon">
   </div>
@@ -25,7 +25,7 @@ function renderTopBar() {
   <div class="navbar">
     <ul class="navbar-nav">
 
-      <div class="card"><div class="card-body" id="score"><h3 class="text-danger">SCORE</h3></></div></div>
+      <div class="card"><div class="card-body"><h3 class="text-danger" id="score">${score}</h3></></div></div>
     </ul>
   </div>
 </nav>`

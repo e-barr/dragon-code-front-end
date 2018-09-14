@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const userForm = document.querySelector('#form-login-username')
 
   userForm.addEventListener('submit', (event) => {
-    // debugger
+    username = event.target.username.value
     event.preventDefault()
     removeCircleAnimation()
     appContent.innerHTML = ``
