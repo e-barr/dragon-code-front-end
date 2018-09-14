@@ -12,7 +12,7 @@ class Adapter {
     }))
   }
 
-  static async get10Questions() {
+  static async getTenQuestions() {
     let responseId = await fetch()
     let questions = await result.json()
     return questions.map(question => ({
@@ -55,9 +55,51 @@ class Adapter {
     })
       .then(res => res.json())
 
+    let formattedLevelQuestions = gameInfo.questions.map(questionObject => {
+      let formattedOptions = {
+        1: questionObject.options[1],
+        2: questionObject.options[2],
+        3: questionObject.options[3]
+      }
+
+      return {
+        id: questionObject.id,
+        text: questionObject.text,
+        answer: questionObject.answer,
+        option: formattedOptions
+      }
+    })
+
+    let formattedGridItems = gameInfo.grid_spaces.map(gridItemObject => ({
+      id: gridItemObject.id,
+      levelId: gridItemObject.level_id,
+      passThrough: gridItemObject.pass_through,
+      startingX: gridItemObject.x_coor,
+      startingY: gridItemObject.y_coor,
+      width: gridItemObject.width,
+      height: gridItemObject.height,
+      fileFolder: gridItemObject.image_src,
+      fileName: gridItemObject.file_name
+    }))
+
+    let formattedEventPieces = gameInfo.event_pieces.map(eventPieceObject => ({
+      id: eventPieceObject.id,
+      questionId: eventPieceObject.question_id,
+      passThrough: false,
+      startingX: eventPieceObject.x_coor,
+      startingY: eventPieceObject.y_coor,
+      width: eventPieceObject.width,
+      height: eventPieceObject.height,
+      fileFolder: eventPieceObject.image_src,
+      fileName: eventPieceObject.file_name
+    }))
+
     return {
       gameId: gameInfo.id,
-      score: gameInfo.score
+      score: gameInfo.score,
+      levelQuestions:formattedLevelQuestions,
+      gridItems: formattedGridItems,
+      eventPieces: formattedEventPieces
     }
   }
 
@@ -71,7 +113,7 @@ class Adapter {
         game_id: questionObject.gameId,
         question_id: questionObject.questionId,
         user_answer: questionObject.responseId
-        //The object data that needs to updated
+        //note: The object data that needs to updated
         //gameid, questionid, responseID
       })
     })
